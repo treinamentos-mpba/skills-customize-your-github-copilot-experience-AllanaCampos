@@ -7,7 +7,7 @@ Desenvolva uma versão do jogo da Forca em Python para praticar manipulação de
 
 ## 📝 Tasks
 
-### 🛠️ Preparação da Palavra e do Estado do Jogo
+### 🛠️ Prepare the Secret Word and Game State
 
 #### Descrição
 Prepare os dados necessários para iniciar uma partida, selecionando uma palavra secreta e inicializando as variáveis que acompanharão os palpites e as tentativas.
@@ -16,10 +16,10 @@ Prepare os dados necessários para iniciar uma partida, selecionando uma palavra
 O programa concluído deve:
 
 - Selecionar aleatoriamente uma palavra de uma lista predefinida.
-- Inicializar uma coleção para registrar as letras adivinhadas e contadores para as tentativas incorretas.
+- Inicializar uma coleção para registrar as letras adivinhadas, um contador de erros e um limite máximo de tentativas incorretas.
 - Exibir a palavra oculta usando um espaço reservado, como `_ _ _`, para cada letra ainda não adivinhada.
 
-### 🛠️ Loop de Palpites e Encerramento da Partida
+### 🛠️ Implement Guesses and End the Game
 
 #### Descrição
 Implemente o loop principal para receber palpites, atualizar o progresso e encerrar a partida quando o jogador vencer ou esgotar as tentativas.
