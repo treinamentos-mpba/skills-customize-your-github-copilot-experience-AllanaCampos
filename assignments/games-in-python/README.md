@@ -1,33 +1,19 @@
 
-# 📘 Assignment: Hangman Game
+# 🎮 Desafio: Jogo da Forca
 
-## 🎯 Objective
+Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
 
-Desenvolva uma versão do jogo da Forca em Python para praticar manipulação de strings, listas, seleção aleatória, entrada de dados, loops e condicionais.
+## 🎯 O Que Você Vai Construir
 
-## 📝 Tasks
+Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
 
-### 🛠️ Prepare the Secret Word and Game State
+**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
 
-#### Descrição
-Prepare os dados necessários para iniciar uma partida, selecionando uma palavra secreta e inicializando as variáveis que acompanharão os palpites e as tentativas.
+## ✅ Requisitos Obrigatórios
 
-#### Requisitos
-O programa concluído deve:
-
-- Selecionar aleatoriamente uma palavra de uma lista predefinida.
-- Inicializar uma coleção para registrar as letras adivinhadas, um contador de erros e um limite máximo de tentativas incorretas.
-- Exibir a palavra oculta usando um espaço reservado, como `_ _ _`, para cada letra ainda não adivinhada.
-
-### 🛠️ Implement Guesses and End the Game
-
-#### Descrição
-Implemente o loop principal para receber palpites, atualizar o progresso e encerrar a partida quando o jogador vencer ou esgotar as tentativas.
-
-#### Requisitos
-O programa concluído deve:
-
-- Solicitar palpites de letras e revelar no progresso cada ocorrência de uma letra correta.
-- Registrar os palpites incorretos e informar quantas tentativas restam.
-- Continuar a partida até a palavra ser adivinhada ou as tentativas incorretas se esgotarem.
-- Exibir uma mensagem de vitória ou derrota ao final da partida.
+Seu jogo deve:
+- Selecionar palavras aleatoriamente de uma lista predefinida
+- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
+- Rastrear tentativas incorretas restantes
+- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
+- Exibir mensagens de vitória/derrota
